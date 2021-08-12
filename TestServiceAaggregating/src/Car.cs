@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TestServiceAagregating.src
+namespace TestServiceAgregating.src
 {
     /// <summary>
     /// Класс свойств автомобиля

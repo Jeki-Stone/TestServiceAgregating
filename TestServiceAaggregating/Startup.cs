@@ -13,9 +13,9 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using TestServiceAagregating.src;
+using TestServiceAgregating.src;
 
-namespace TestServiceAagregating
+namespace TestServiceAgregating
 {
     public class Startup
     {
@@ -33,7 +33,7 @@ namespace TestServiceAagregating
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "TestServiceAagregating", Version = "v1", Description= "Сделал сервис агрегации агрегаторов такси." +
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "TestServiceAgregating", Version = "v1", Description= "Сделал сервис агрегации агрегаторов такси." +
                     " Необходимо реализовать общую архитектуру, коннекторы к конкретным агрегаторам реализовывать не нужно, но нужно сделать общий интерфейс." +
                     " Сервис должен реализовывать возможность поиска предложений по адресам(в т.ч.асинхронно), бронирования и отмены бронирования." +
                     " Сделал Кузугашев Иван. E-mail: abgyst12@mail.ru" });
@@ -55,7 +55,7 @@ namespace TestServiceAagregating
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TestServiceAagregating v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TestServiceAgregating v1"));
             }
 
             app.UseHttpsRedirection();

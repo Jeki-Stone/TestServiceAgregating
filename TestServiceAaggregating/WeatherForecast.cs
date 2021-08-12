@@ -1,6 +1,6 @@
 using System;
 
-namespace TestServiceAagregating
+namespace TestServiceAgregating
 {
     public class WeatherForecast
     {

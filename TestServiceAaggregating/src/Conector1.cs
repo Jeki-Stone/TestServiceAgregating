@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace TestServiceAagregating.src
+namespace TestServiceAgregating.src
 {
     /// <summary>
     /// Класс заглушки Dummy Taxy
